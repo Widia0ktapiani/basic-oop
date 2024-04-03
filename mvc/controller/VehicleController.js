@@ -3,16 +3,17 @@ const View = require('../view/View');
 
 class VehicleController {
     static show(){
-        Vehicle.show()
+        let vehicles = Vehicle.getVehicles()
+        View.show(vehicles)
     }
-    static add(){
-        Vehicle.add()
+    static add(params){
+        Vehicle.add(params)
     }
-    static delete(){
-        Vehicle.delete()
+    static delete(params){
+        Vehicle.delete(params)
     }
-    static update(){
-        Vehicle.update()
+    static update(params){
+        Vehicle.update(params)
     }
     static message(msg){
         View.message(msg)

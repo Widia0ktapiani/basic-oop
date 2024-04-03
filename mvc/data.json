@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Honda Civic",
+        "brand": "honda",
+        "price": 15000,
+        "type": "sedan"
+    },
+    {
+        "id": 2,
+        "name": "Colt Diesel",
+        "brand": "colt",
+        "price": 5000,
+        "type": "pickup"
+    },
+    {
+        "id": 3,
+        "name": "Daihatsu Rocky",
+        "brand": "daihatsu",
+        "price": 7500,
+        "type": "suv"
+
+    }
+] 
